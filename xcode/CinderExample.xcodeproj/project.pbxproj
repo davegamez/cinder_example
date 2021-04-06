@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CE9D4115FD289200879821 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D4015FD289200879821 /* Cocoa.framework */; };
+		55CE9D5115FD289200879821 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55CE9D4F15FD289200879821 /* Credits.rtf */; };
+		55CE9D5415FD289200879821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CE9D5315FD289200879821 /* AppDelegate.m */; };
+		55CE9D5F15FD289200879821 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D5E15FD289200879821 /* SenTestingKit.framework */; };
+		55CE9D6015FD289200879821 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D4015FD289200879821 /* Cocoa.framework */; };
+		55CE9D6815FD289200879821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55CE9D6615FD289200879821 /* InfoPlist.strings */; };
+		55CE9D6B15FD289200879821 /* CinderExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CE9D6A15FD289200879821 /* CinderExampleTests.m */; };
+		55CE9D7B15FD297B00879821 /* CinderExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CE9D7915FD297B00879821 /* CinderExample.cpp */; };
+		55CE9D8515FD2F2300879821 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D7D15FD2F2300879821 /* Accelerate.framework */; };
+		55CE9D8615FD2F2300879821 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D7E15FD2F2300879821 /* AudioToolbox.framework */; };
+		55CE9D8715FD2F2300879821 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D7F15FD2F2300879821 /* AudioUnit.framework */; };
+		55CE9D8815FD2F2300879821 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D8015FD2F2300879821 /* CoreAudio.framework */; };
+		55CE9D8915FD2F2300879821 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D8115FD2F2300879821 /* CoreVideo.framework */; };
+		55CE9D8A15FD2F2300879821 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D8215FD2F2300879821 /* OpenGL.framework */; };
+		55CE9D8B15FD2F2300879821 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D8315FD2F2300879821 /* QTKit.framework */; };
+		55CE9D8C15FD2F2300879821 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE9D8415FD2F2300879821 /* QuickTime.framework */; };
+		55DFD98D15FD5F480043E1B0 /* background.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55DFD98C15FD5F480043E1B0 /* background.tiff */; };
+		55DFD99215FD61C10043E1B0 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55DFD99015FD61C10043E1B0 /* Particle.cpp */; };
+		55DFD99515FD61EA0043E1B0 /* ParticleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55DFD99315FD61EA0043E1B0 /* ParticleController.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55CE9D6115FD289200879821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CE9D3315FD289200879821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CE9D3B15FD289200879821;
+			remoteInfo = CinderExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CE9D3C15FD289200879821 /* CinderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CE9D4015FD289200879821 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55CE9D4315FD289200879821 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55CE9D4415FD289200879821 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55CE9D4515FD289200879821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55CE9D4815FD289200879821 /* CinderExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinderExample-Info.plist"; sourceTree = "<group>"; };
+		55CE9D4E15FD289200879821 /* CinderExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CinderExample-Prefix.pch"; sourceTree = "<group>"; };
+		55CE9D5015FD289200879821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55CE9D5215FD289200879821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55CE9D5315FD289200879821 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55CE9D5D15FD289200879821 /* CinderExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinderExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CE9D5E15FD289200879821 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		55CE9D6515FD289200879821 /* CinderExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinderExampleTests-Info.plist"; sourceTree = "<group>"; };
+		55CE9D6715FD289200879821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55CE9D6915FD289200879821 /* CinderExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinderExampleTests.h; sourceTree = "<group>"; };
+		55CE9D6A15FD289200879821 /* CinderExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinderExampleTests.m; sourceTree = "<group>"; };
+		55CE9D7915FD297B00879821 /* CinderExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CinderExample.cpp; path = ../src/CinderExample.cpp; sourceTree = "<group>"; };
+		55CE9D7D15FD2F2300879821 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = ../../../../../../../System/Library/Frameworks/Accelerate.framework; sourceTree = "<group>"; };
+		55CE9D7E15FD2F2300879821 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		55CE9D7F15FD2F2300879821 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = ../../../../../../../System/Library/Frameworks/AudioUnit.framework; sourceTree = "<group>"; };
+		55CE9D8015FD2F2300879821 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = ../../../../../../../System/Library/Frameworks/CoreAudio.framework; sourceTree = "<group>"; };
+		55CE9D8115FD2F2300879821 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = ../../../../../../../System/Library/Frameworks/CoreVideo.framework; sourceTree = "<group>"; };
+		55CE9D8215FD2F2300879821 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		55CE9D8315FD2F2300879821 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = ../../../../../../../System/Library/Frameworks/QTKit.framework; sourceTree = "<group>"; };
+		55CE9D8415FD2F2300879821 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = "<group>"; };
+		55DFD98C15FD5F480043E1B0 /* background.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = background.tiff; path = ../src/background.tiff; sourceTree = "<group>"; };
+		55DFD99015FD61C10043E1B0 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
+		55DFD99115FD61C10043E1B0 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
+		55DFD99315FD61EA0043E1B0 /* ParticleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleController.cpp; path = ../src/ParticleController.cpp; sourceTree = "<group>"; };
+		55DFD99415FD61EA0043E1B0 /* ParticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleController.h; path = ../src/ParticleController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CE9D3915FD289200879821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D4115FD289200879821 /* Cocoa.framework in Frameworks */,
+				55CE9D8515FD2F2300879821 /* Accelerate.framework in Frameworks */,
+				55CE9D8615FD2F2300879821 /* AudioToolbox.framework in Frameworks */,
+				55CE9D8715FD2F2300879821 /* AudioUnit.framework in Frameworks */,
+				55CE9D8815FD2F2300879821 /* CoreAudio.framework in Frameworks */,
+				55CE9D8915FD2F2300879821 /* CoreVideo.framework in Frameworks */,
+				55CE9D8A15FD2F2300879821 /* OpenGL.framework in Frameworks */,
+				55CE9D8B15FD2F2300879821 /* QTKit.framework in Frameworks */,
+				55CE9D8C15FD2F2300879821 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE9D5915FD289200879821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D5F15FD289200879821 /* SenTestingKit.framework in Frameworks */,
+				55CE9D6015FD289200879821 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CE9D3115FD289200879821 = {
+			isa = PBXGroup;
+			children = (
+				55CE9D7C15FD299500879821 /* src */,
+				55CE9D4615FD289200879821 /* CinderExample */,
+				55CE9D6315FD289200879821 /* CinderExampleTests */,
+				55CE9D3F15FD289200879821 /* Frameworks */,
+				55CE9D3D15FD289200879821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CE9D3D15FD289200879821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D3C15FD289200879821 /* CinderExample.app */,
+				55CE9D5D15FD289200879821 /* CinderExampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CE9D3F15FD289200879821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D7D15FD2F2300879821 /* Accelerate.framework */,
+				55CE9D7E15FD2F2300879821 /* AudioToolbox.framework */,
+				55CE9D7F15FD2F2300879821 /* AudioUnit.framework */,
+				55CE9D8015FD2F2300879821 /* CoreAudio.framework */,
+				55CE9D8115FD2F2300879821 /* CoreVideo.framework */,
+				55CE9D8215FD2F2300879821 /* OpenGL.framework */,
+				55CE9D8315FD2F2300879821 /* QTKit.framework */,
+				55CE9D8415FD2F2300879821 /* QuickTime.framework */,
+				55CE9D4015FD289200879821 /* Cocoa.framework */,
+				55CE9D5E15FD289200879821 /* SenTestingKit.framework */,
+				55CE9D4215FD289200879821 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55CE9D4215FD289200879821 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D4315FD289200879821 /* AppKit.framework */,
+				55CE9D4415FD289200879821 /* CoreData.framework */,
+				55CE9D4515FD289200879821 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55CE9D4615FD289200879821 /* CinderExample */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D5215FD289200879821 /* AppDelegate.h */,
+				55CE9D5315FD289200879821 /* AppDelegate.m */,
+				55CE9D4715FD289200879821 /* Supporting Files */,
+			);
+			path = CinderExample;
+			sourceTree = "<group>";
+		};
+		55CE9D4715FD289200879821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D4815FD289200879821 /* CinderExample-Info.plist */,
+				55CE9D4E15FD289200879821 /* CinderExample-Prefix.pch */,
+				55CE9D4F15FD289200879821 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55CE9D6315FD289200879821 /* CinderExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D6915FD289200879821 /* CinderExampleTests.h */,
+				55CE9D6A15FD289200879821 /* CinderExampleTests.m */,
+				55CE9D6415FD289200879821 /* Supporting Files */,
+			);
+			path = CinderExampleTests;
+			sourceTree = "<group>";
+		};
+		55CE9D6415FD289200879821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55CE9D6515FD289200879821 /* CinderExampleTests-Info.plist */,
+				55CE9D6615FD289200879821 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55CE9D7C15FD299500879821 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				55DFD99315FD61EA0043E1B0 /* ParticleController.cpp */,
+				55DFD99415FD61EA0043E1B0 /* ParticleController.h */,
+				55DFD98C15FD5F480043E1B0 /* background.tiff */,
+				55CE9D7915FD297B00879821 /* CinderExample.cpp */,
+				55DFD99015FD61C10043E1B0 /* Particle.cpp */,
+				55DFD99115FD61C10043E1B0 /* Particle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CE9D3B15FD289200879821 /* CinderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CE9D6E15FD289200879821 /* Build configuration list for PBXNativeTarget "CinderExample" */;
+			buildPhases = (
+				55CE9D3815FD289200879821 /* Sources */,
+				55CE9D3915FD289200879821 /* Frameworks */,
+				55CE9D3A15FD289200879821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinderExample;
+			productName = CinderExample;
+			productReference = 55CE9D3C15FD289200879821 /* CinderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CE9D5C15FD289200879821 /* CinderExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CE9D7115FD289200879821 /* Build configuration list for PBXNativeTarget "CinderExampleTests" */;
+			buildPhases = (
+				55CE9D5815FD289200879821 /* Sources */,
+				55CE9D5915FD289200879821 /* Frameworks */,
+				55CE9D5A15FD289200879821 /* Resources */,
+				55CE9D5B15FD289200879821 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CE9D6215FD289200879821 /* PBXTargetDependency */,
+			);
+			name = CinderExampleTests;
+			productName = CinderExampleTests;
+			productReference = 55CE9D5D15FD289200879821 /* CinderExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CE9D3315FD289200879821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dave Gamez";
+			};
+			buildConfigurationList = 55CE9D3615FD289200879821 /* Build configuration list for PBXProject "CinderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55CE9D3115FD289200879821;
+			productRefGroup = 55CE9D3D15FD289200879821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CE9D3B15FD289200879821 /* CinderExample */,
+				55CE9D5C15FD289200879821 /* CinderExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CE9D3A15FD289200879821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D5115FD289200879821 /* Credits.rtf in Resources */,
+				55DFD98D15FD5F480043E1B0 /* background.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE9D5A15FD289200879821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D6815FD289200879821 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55CE9D5B15FD289200879821 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CE9D3815FD289200879821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D5415FD289200879821 /* AppDelegate.m in Sources */,
+				55CE9D7B15FD297B00879821 /* CinderExample.cpp in Sources */,
+				55DFD99215FD61C10043E1B0 /* Particle.cpp in Sources */,
+				55DFD99515FD61EA0043E1B0 /* ParticleController.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE9D5815FD289200879821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CE9D6B15FD289200879821 /* CinderExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CE9D6215FD289200879821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CE9D3B15FD289200879821 /* CinderExample */;
+			targetProxy = 55CE9D6115FD289200879821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55CE9D4F15FD289200879821 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CE9D5015FD289200879821 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55CE9D6615FD289200879821 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CE9D6715FD289200879821 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55CE9D6C15FD289200879821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../git/cinder_0.8.4_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(CINDER_PATH)/boost";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(CINDER_PATH)/include";
+			};
+			name = Debug;
+		};
+		55CE9D6D15FD289200879821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../git/cinder_0.8.4_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(CINDER_PATH)/boost";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(CINDER_PATH)/include";
+			};
+			name = Release;
+		};
+		55CE9D6F15FD289200879821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../git/cinder_0.8.4_mac;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinderExample/CinderExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "CinderExample/CinderExample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				"OTHER_LDFLAGS[arch=*]" = "$(CINDER_PATH)/lib/libcinder_d.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55CE9D7015FD289200879821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../git/cinder_0.8.4_mac;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinderExample/CinderExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "CinderExample/CinderExample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				"OTHER_LDFLAGS[arch=*]" = "$(CINDER_PATH)/lib/libcinder.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55CE9D7215FD289200879821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CinderExample.app/Contents/MacOS/CinderExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinderExample/CinderExample-Prefix.pch";
+				INFOPLIST_FILE = "CinderExampleTests/CinderExampleTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55CE9D7315FD289200879821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CinderExample.app/Contents/MacOS/CinderExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinderExample/CinderExample-Prefix.pch";
+				INFOPLIST_FILE = "CinderExampleTests/CinderExampleTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CE9D3615FD289200879821 /* Build configuration list for PBXProject "CinderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE9D6C15FD289200879821 /* Debug */,
+				55CE9D6D15FD289200879821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CE9D6E15FD289200879821 /* Build configuration list for PBXNativeTarget "CinderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE9D6F15FD289200879821 /* Debug */,
+				55CE9D7015FD289200879821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CE9D7115FD289200879821 /* Build configuration list for PBXNativeTarget "CinderExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE9D7215FD289200879821 /* Debug */,
+				55CE9D7315FD289200879821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CE9D3315FD289200879821 /* Project object */;
+}

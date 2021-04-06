@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CinderExample' target in the 'CinderExample' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
